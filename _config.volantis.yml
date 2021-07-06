@@ -12,28 +12,25 @@ navbar:
     - name: 归档
       icon: fas fa-archive
       url: /archives
-    - name: 友链
+    - name: 成员
       icon: fas fa-heart
       url: /friends  
     - name: 关于
       icon: fad fa-play-circle faa-tada
       url: /about  
-    - name: 小空调
-      icon: https://z3.ax1x.com/2021/05/22/gL8SSJ.png
-      url: /ac
   search: 搜索
 
 cover:
   height_scheme: full
   layout_scheme: search # search (搜索), dock (坞), featured (精选), focus (焦点)
-  title: '米拉克的博客'
+  title: 'EcoCraft'
   subtitle: ''
-  background: https://z3.ax1x.com/2021/05/22/gqrRts.jpg
+  background: https://z3.ax1x.com/2021/07/07/R7cLND.jpg
   display:
     home: true
     archive: true
     others: false # can be written in front-matter'cover: true'      
-  search: 害怕.jpg
+  search: Welcome To EcoCraft🍀!
   features:
     - name: 主页
       icon: #
@@ -47,10 +44,6 @@ cover:
       icon: #
       img: #https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
       url: /about
-    - name: B站
-      icon: #
-      img: #https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
-      url: https://b23.tv/h0yQ0i
 
 article:
   preview:
@@ -114,9 +107,9 @@ article:
       # 默认文章作者（可在 _data/author.yaml 中增加其他作者，并在 front-matter 中设置）
       # https://volantis.js.org/advanced-settings/#多人协同
       author:
-        avatar: https://z3.ax1x.com/2021/05/22/gLPrFK.jpg
-        name: 米拉克
-        url: https://github.com/MerakWalker
+        avatar: https://z3.ax1x.com/2021/07/07/R7cqAO.png
+        name: EcoCraft
+        url: 
       # 文章创建日期
       date:
         icon: fas fa-calendar-alt
@@ -176,18 +169,18 @@ sidebar:
     blogger:
       class: blogger
       display: [desktop] # [desktop, mobile]
-      avatar: https://z3.ax1x.com/2021/05/22/gLPrFK.jpg
+      avatar: https://z3.ax1x.com/2021/07/07/R7cqAO.png
       shape: circle
-      title: 米拉克
-      subtitle: 無限進步
+      title: EcoCraft🍀
+      subtitle: 欢迎来到EcoCraft🍀
       jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social: 
         - icon: fab fa-github
-          url: https://github.com/MerakW
+          url: 
         - icon: fab fa-facebook 
-          url: https://www.facebook.com/profile.php?id=100068235464035
+          url: 
         - icon: fab fa-twitter
-          url: https://twitter.com/real_merakw
+          url: 
         - icon: fas fa-bolt
           url: 
     toc:
